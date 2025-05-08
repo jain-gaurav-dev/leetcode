@@ -25,7 +25,7 @@ func (n *NestedInteger) Add(elem NestedInteger) {}
 // Return the nested list that this NestedInteger holds, if it holds a nested list
 // The result is undefined if this NestedInteger holds a single integer
 // You can access NestedInteger's List element directly if you want to modify it
-func (n NestedInteger) GetList() []*NestedInteger {}
+func (n NestedInteger) GetList() []*NestedInteger { return nil }
 
 func depthSum(nestedList []*NestedInteger) int {
 	var eval func(ni []*NestedInteger, depth int) int
